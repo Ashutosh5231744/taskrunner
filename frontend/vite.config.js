@@ -6,7 +6,10 @@ export default defineConfig({
   preview: {
     host: '0.0.0.0',
     port: 4173,
-    allowedHosts: 'all'
+    allowedHosts: [
+      'modest-creativity-production-0b57.up.railway.app',
+      'localhost'
+    ]
   },
   server: {
     host: '0.0.0.0',
